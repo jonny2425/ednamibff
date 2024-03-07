@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:Segoe Script;
+    font-size: 30px;
+    background-color: #f7c0e1;
+    padding:10px;
+   
+}
+.encabezado{
+    padding-left:1px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    text-align: left;
+    background-color:#671260;
+}
+.parrafo1{
+      padding-left:25px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #671260;
+}
+.encabezado h1{
+    font-size: 38px;
+    color: white;
+   text-align: center;
+    /*-webkit-text-stroke:0.3px #a32e2e;
+    text-shadow: #FGADFE -2px 5px;*/
+}
+.menu{
+    background-color: #e5ace0;
+    overflow: hidden;
+
+    padding:5px;
+}
+.menu a{
+    float: left;
+    display:  block;
+    color:#000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+
+}
+.menu a:hover{
+    color:black;
+   background-color: #f79ed4;
+}
+.izq{
+    float: left;
+    width: 70%;
+    background-color: #f7c0e1;
+     font-family: Times New Roman;
+   
+}
+
+.der{
+    float: left;
+    width:30%;
+    background-color: #f7c0e1;
+  
+   
+}
+.cuerpo::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.pie{
+    padding-top: 150px;
+   
+    margin-top: .5px;
+    background-color: #f7c0e1;
+    text-align: center;
+   
+}
+@media screen and (max-width: 1000px){/*400 celular*/
+    .izq , .der{
+        width: 100%;
+        padding: 0;
+       
+    }
+}
+@media screen and (max-width: 800px){/*800 celular*/
+    .menu a {
+        float: none;
+        width: 100%;
+       
+    }
+}
+.img{
+    text-align:center;
+}

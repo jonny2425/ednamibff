@@ -1,0 +1,30 @@
+Estilos2
+
+body{
+    font-family: Segoe Script;
+    padding:10px;
+    background-color: #f79ed4;
+    font-size: 30px;
+}
+.parrafo1{
+       padding-left:25px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #f79ed4 ;
+    }
+.inicio{
+    text-align:center;
+    font-size:40px;
+    font-family:cursive;
+}
+.img{
+    text-align:center;
+}
+.img1{
+    text-align: left;
+}
+.1{
+    text-align: right;
+}
